@@ -12,55 +12,55 @@
 
 @layer base {
   :root {
-    /* Warm cream/white background */
-    --background: 40 33% 98%;
-    --foreground: 150 25% 20%;
+    /* Warm cream/beige background */
+    --background: 35 40% 97%;
+    --foreground: 25 30% 18%;
 
-    /* Cards use pure white for contrast */
-    --card: 0 0% 100%;
-    --card-foreground: 150 25% 20%;
+    /* Cards use soft cream for warmth */
+    --card: 35 35% 99%;
+    --card-foreground: 25 30% 18%;
 
-    --popover: 0 0% 100%;
-    --popover-foreground: 150 25% 20%;
+    --popover: 35 35% 99%;
+    --popover-foreground: 25 30% 18%;
 
-    /* Primary: Sage green - nature, freshness */
-    --primary: 150 25% 35%;
-    --primary-foreground: 40 33% 98%;
+    /* Primary: Warm brown - earthy, handmade feel */
+    --primary: 25 35% 32%;
+    --primary-foreground: 35 40% 97%;
 
-    /* Secondary: Light sage for subtle backgrounds */
-    --secondary: 150 20% 92%;
-    --secondary-foreground: 150 25% 25%;
+    /* Secondary: Light beige for subtle backgrounds */
+    --secondary: 35 30% 92%;
+    --secondary-foreground: 25 35% 25%;
 
-    /* Muted: Soft warm gray */
-    --muted: 40 15% 93%;
-    --muted-foreground: 150 10% 45%;
+    /* Muted: Soft warm beige */
+    --muted: 35 25% 93%;
+    --muted-foreground: 25 15% 45%;
 
     /* Accent: Dusty rose/blush pink */
-    --accent: 350 45% 85%;
+    --accent: 350 35% 85%;
     --accent-foreground: 350 40% 30%;
 
     /* Rose for special highlights */
-    --rose: 350 50% 75%;
-    --rose-light: 350 60% 92%;
+    --rose: 350 45% 75%;
+    --rose-light: 350 50% 92%;
     --rose-foreground: 350 45% 25%;
 
-    /* Warm peach for subtle accents */
-    --peach: 25 70% 90%;
-    --peach-foreground: 25 50% 30%;
+    /* Warm caramel for accents */
+    --peach: 30 50% 88%;
+    --peach-foreground: 30 40% 28%;
 
     --destructive: 0 84.2% 60.2%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 150 15% 88%;
-    --input: 150 15% 88%;
-    --ring: 150 25% 35%;
+    --border: 30 20% 85%;
+    --input: 30 20% 85%;
+    --ring: 25 35% 32%;
 
     --radius: 0.75rem;
 
-    /* Custom shadows */
-    --shadow-soft: 0 4px 20px -4px hsl(150 20% 20% / 0.08);
-    --shadow-card: 0 2px 12px -2px hsl(150 20% 20% / 0.06);
-    --shadow-hover: 0 8px 30px -8px hsl(150 20% 20% / 0.12);
+    /* Custom shadows with warm brown tones */
+    --shadow-soft: 0 4px 20px -4px hsl(25 30% 20% / 0.08);
+    --shadow-card: 0 2px 12px -2px hsl(25 30% 20% / 0.06);
+    --shadow-hover: 0 8px 30px -8px hsl(25 30% 20% / 0.12);
 
     /* Typography */
     --font-display: 'Playfair Display', Georgia, serif;
@@ -78,23 +78,23 @@
   }
 
   .dark {
-    --background: 150 20% 8%;
-    --foreground: 40 20% 95%;
+    --background: 25 20% 8%;
+    --foreground: 35 30% 95%;
 
-    --card: 150 20% 12%;
-    --card-foreground: 40 20% 95%;
+    --card: 25 20% 12%;
+    --card-foreground: 35 30% 95%;
 
-    --popover: 150 20% 12%;
-    --popover-foreground: 40 20% 95%;
+    --popover: 25 20% 12%;
+    --popover-foreground: 35 30% 95%;
 
-    --primary: 150 30% 55%;
-    --primary-foreground: 150 25% 10%;
+    --primary: 30 40% 55%;
+    --primary-foreground: 25 30% 10%;
 
-    --secondary: 150 15% 18%;
-    --secondary-foreground: 40 20% 90%;
+    --secondary: 25 15% 18%;
+    --secondary-foreground: 35 30% 90%;
 
-    --muted: 150 15% 18%;
-    --muted-foreground: 150 10% 60%;
+    --muted: 25 15% 18%;
+    --muted-foreground: 25 10% 60%;
 
     --accent: 350 35% 35%;
     --accent-foreground: 350 50% 90%;
@@ -103,15 +103,15 @@
     --rose-light: 350 30% 20%;
     --rose-foreground: 350 50% 90%;
 
-    --peach: 25 40% 25%;
-    --peach-foreground: 25 60% 90%;
+    --peach: 30 40% 25%;
+    --peach-foreground: 30 60% 90%;
 
     --destructive: 0 62.8% 30.6%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 150 15% 20%;
-    --input: 150 15% 20%;
-    --ring: 150 30% 55%;
+    --border: 25 15% 20%;
+    --input: 25 15% 20%;
+    --ring: 30 40% 55%;
 
     --sidebar-background: 240 5.9% 10%;
     --sidebar-foreground: 240 4.8% 95.9%;
