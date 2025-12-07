@@ -42,10 +42,10 @@ const ProductDetail = () => {
         </div>
 
         {/* Product Content */}
-        <section className="container py-8">
-          <div className="grid md:grid-cols-2 gap-8 lg:gap-12">
+        <section className="container py-8 px-4 sm:px-6">
+          <div className="grid md:grid-cols-2 gap-6 md:gap-8 lg:gap-12">
             {/* Product Image */}
-            <div className="aspect-square rounded-2xl overflow-hidden bg-secondary/30 border border-border/50 shadow-soft">
+            <div className="w-full aspect-square rounded-2xl overflow-hidden bg-secondary/30 border border-border/50 shadow-soft">
               <img
                 src={product.image}
                 alt={product.name}
@@ -113,17 +113,18 @@ const ProductDetail = () => {
               <div className="space-y-4 pt-2">
                 <Button 
                   variant="instagram" 
-                  size="xl" 
-                  className="w-full" 
+                  size="lg" 
+                  className="w-full text-sm sm:text-base px-4" 
                   asChild
                 >
                   <a
                     href={instagramDMLink}
                     target="_blank"
                     rel="noopener noreferrer"
+                    className="flex items-center justify-center gap-2"
                   >
-                    <Instagram className="h-5 w-5" />
-                    Enviar Mensagem (Comprar ou Personalizar)
+                    <Instagram className="h-4 w-4 sm:h-5 sm:w-5 shrink-0" />
+                    <span className="text-center leading-tight">Enviar Mensagem (Comprar ou Personalizar)</span>
                   </a>
                 </Button>
                 
