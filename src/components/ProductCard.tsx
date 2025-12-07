@@ -30,11 +30,11 @@ const ProductCard = ({ product }: ProductCardProps) => {
           </p>
         </div>
 
-        <div className="flex items-center justify-between pt-2">
-          <span className="font-display text-xl font-semibold text-primary">
+        <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-2 pt-2">
+          <span className="font-display text-lg sm:text-xl font-semibold text-primary">
             {product.price}€
           </span>
-          <Button variant="catalog" size="sm" asChild>
+          <Button variant="catalog" size="sm" className="w-full sm:w-auto" asChild>
             <Link to={`/produto/${product.id}`}>
               Ver Detalhes
             </Link>
